@@ -38,13 +38,12 @@ main{
     text-decoration: none;
     color: white;
     font-size: 16px;
-    display: block;
     padding: 0 30px;
     text-align: left;
 }
 .login{
-    margin-left: 200px;   
-   
+    margin-left: 200px;
+    background: tomato;  
 }
 
 .content{
@@ -150,3 +149,31 @@ main{
 i{
     margin-left: 10px;
 }
+/*---------------------------
+ media quaries 
+ --------------------------*/
+
+ /* .Mobile Device */
+ @media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    } 
+    .main-menu, .content, .players, .match-highlight{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu, .head-title, .player, .highlight {
+        flex-direction: column;
+    }
+    
+}
+/* tablet-device */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    } 
+    .main-menu, .content, .players, .match-highlight{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu, .head-title, .player, .highlight {
+        flex-direction: column;
+    }
