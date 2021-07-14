@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:#f3f1ff; 
+}
+main{
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background:#2D25A0;
+   }
+.topbar{
+    width:1160px;
+    margin: 0 auto;
+    height: 600px;
+   
+}
+.main-menu{
+
+}
+.menu{
+    display: flex;
+   
+}
+.menu li {
+    list-style: none;   
+   
+}
+.menu li a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    padding: 0 30px;
+}
+.login{
+    margin-left: 200px;   
+   
+}
+
+.content{
+    margin-top: 30pxpx;
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 550px;
+    height: 438px;
+    margin-left: 50px;
+}
+.head-title{
+    width: 485px;
+}
+.head-content{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    width: 485px;
+    
+}
+.link{
+    background:indianred;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*---------------------------------
+ Players details
+ --------------------------- */
+ .players{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr); 
+    /* grid-row-gap:30px; */
+    margin-top: 10px;
+    
+    
+}
+
+.player{
+    margin-bottom: 10px;
+    width: 330px;
+    height: 474px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px black;
+    
+    /* display: flex; */
+    /* align-items: center;  */
+}
+
+.player img{
+    width: 330px;
+    height: 200px;
+}
+.player-name{
+    color: tomato;
+}
+
+/*------------------------------
+ match-highlight
+ ----------------------- */
+ .match-highlight{
+    display: flex;
+    margin-top: 1476px;
+    align-items: center;
+ }
+ .match-picture img{
+     width: 567px;
+     height: 427px;
+ }
+ .highlight{
+     width: 466px;
+     height: 309px;
+     
+ }
+ .highlight-title{
+     width: 466px;
+     height: 120;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
