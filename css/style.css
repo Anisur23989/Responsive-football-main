@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* -------------------------
+main-style
+--------------------- */
 body{
     margin: 0;
     padding: 0;
@@ -14,15 +17,16 @@ main{
    }
 .topbar{
     width:1160px;
-    margin: 0 auto;
-    height: 600px;
-   
+    margin: 0px auto;
+    padding: 10px;
+    
 }
 .main-menu{
-
+    
 }
 .menu{
     display: flex;
+    
    
 }
 .menu li {
@@ -36,6 +40,7 @@ main{
     font-size: 16px;
     display: block;
     padding: 0 30px;
+    text-align: left;
 }
 .login{
     margin-left: 200px;   
@@ -43,7 +48,7 @@ main{
 }
 
 .content{
-    margin-top: 30pxpx;
+    margin-top: 100px;
     display: flex;
     align-items: center;
 }
@@ -75,7 +80,6 @@ main{
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr); 
-    /* grid-row-gap:30px; */
     margin-top: 10px;
     
     
@@ -89,8 +93,7 @@ main{
     background: #FFFFFF;
     box-shadow: 1px 1px 3px black;
     
-    /* display: flex; */
-    /* align-items: center;  */
+   
 }
 
 .player img{
@@ -106,22 +109,44 @@ main{
  ----------------------- */
  .match-highlight{
     display: flex;
-    margin-top: 1476px;
+    margin-top: 100px;
     align-items: center;
+    margin-left: 10%;
  }
  .match-picture img{
      width: 567px;
      height: 427px;
  }
  .highlight{
-     width: 466px;
+     width: 350px;
      height: 309px;
+     margin-right: 20px;
      
  }
  .highlight-title{
-     width: 466px;
-     height: 120;
      font-size: 48px;
      font-weight: 700;
  }
+ /* --------------------------
+ web-info 
+ ----------------------------*/
+ .web-info{
+    width:483.87px;
+    height:213px;
+    margin:0 auto;
+    text-align: center;
+ }
 
+.icon{
+    color:black;
+    padding:20px;
+    margin: 20px;
+}
+.logo img{
+    margin-top: 50px;
+    margin-left:10%;
+    width: 400px;
+}
+i{
+    margin-left: 10px;
+}
